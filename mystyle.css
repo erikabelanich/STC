@@ -388,7 +388,7 @@ max-width: 100%;
 margin: auto; 
 margin-bottom: 0px!important;
 background-size: cover; /* Cover the entire jumbotron with the background image */
-background-position: center; /* Center the background image */
+background-position: top; /* Center the background image */
 color: white; /* Text color on top of the background image */
 padding: 100px 0; /* Add padding for content inside the jumbotron */
 text-align: left; /* Center-align text within the jumbotron */
