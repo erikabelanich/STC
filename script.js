@@ -1,7 +1,7 @@
-$(document).ready(function() {
+(function () {
   "use strict";
 
-  var carousels = function() {
+  var carousels = function () {
     $(".owl-carousel1").owlCarousel({
       loop: true,
       center: true,
@@ -26,5 +26,7 @@ $(document).ready(function() {
     });
   };
 
-  carousels(); // Call the function directly inside document ready
-});
+  (function ($) {
+    carousels();
+  })(jQuery);
+})();
