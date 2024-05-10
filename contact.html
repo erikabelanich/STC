@@ -19,7 +19,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
 </style>  
     
+    <style>
+ /* Contact */  
     
+
+  .container-contact {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    flex-wrap: wrap;
+  }
+  .contact-form {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  .contact-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+      max-width: 300px; 
+    margin-bottom: 20px;
+  }
+  .map-container {
+    margin-top: 20px;
+  }
+  iframe {
+    width: 250px;
+    height: 250px;
+    border: none;
+    border-radius: 8px;
+  }
+    textarea {
+    width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column; 
+      align-items: center; 
+    }
+          iframe {
+    width: 250px;
+    height: 250px;
+          }
+  }
+
+        
+    </style>
     
     
     <link rel="stylesheet" href="mystyle.css">
@@ -124,7 +179,7 @@
  
        
  <!-- ======= Jumbotron ======= -->  
- <div class="jumbotron shoppage">
+ <div class="jumbotron contactpage">
         <div class="container">
             <h1 class="display-3">Contact</h1>
             <p class="subtitle" style="text-align: center; color: white;">
