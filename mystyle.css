@@ -710,14 +710,21 @@ padding: 25px;
 }
 .bg-acting{
 background-color: #00796B;
+  text-decoration: none;
 }
   .bg-musical{
 background-color: #3E8A2A;
+      text-decoration: none;
 }
 
 
   .bg-vocal{
 background-color: #A9BF9D;
+      text-decoration: none;
+}
+    .bg-noclass{
+background-color: #707070;
+      text-decoration: none;
 }
   
 .text-truncate{
