@@ -201,7 +201,7 @@ color: #171717;
 
 
 .navbar-nav .dropdown-menu:before {
-    content: '';
+  
     top: -6px; /* Adjust the position for the yellow bar */
     left: 0;
     width: 100%;
@@ -209,6 +209,21 @@ color: #171717;
     background-color: #FAB142; 
     border-radius: 0;
 }
+
+
+
+  @media (max-width: 768px) {
+    .navbar-nav .dropdown-menu{
+border-radius: 0px;
+            }
+  }
+
+
+
+
+
+
+
 
 .navbar-expand-sm .navbar-nav .nav-link{
     padding-right: 2rem!important;
