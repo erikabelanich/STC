@@ -705,10 +705,21 @@ padding: 25px;
 
 @media (min-width: 576px) {
     .day {
-        height: 14.2857vw;
+        height: auto!important;
     }
 }
+.bg-acting{
+background-color: #00796B;
+}
+  .bg-musical{
+background-color: #3E8A2A;
+}
 
+
+  .bg-vocal{
+background-color: #A9BF9D;
+}
+  
 .text-truncate{
     white-space: normal!important;
 }
