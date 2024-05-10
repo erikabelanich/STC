@@ -170,7 +170,7 @@
     margin-top: 20px;
   }
   iframe {
-    width: 100%;
+    width: 300px;
     height: 300px;
     border: none;
     border-radius: 8px;
@@ -185,6 +185,10 @@
     .contact-info {
       margin-bottom: 0; 
     }
+          iframe {
+    width: 100%;
+    height: 300px;
+          }
   }
 
     
@@ -192,25 +196,21 @@
 
   <div class="container-contact">
     <div class="contact-form">
-      <h2>Contact Us</h2>
+      <h2>Send us a Message</h2>
+        <p>Tell us more in the form below and we’ll get back to you as soon as possible.</p>
       <form action="submit_form.php" method="POST">
 
-         <div class="row">
-                    <div class="col-md-4">
-                         <input type="email" placeholder="Your Email" required>
-                    </div>
-    
-                </div>
-
-          
+         
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
-
-          
-        <label for="phone">Phone Number:</label>
+<br>
+           <label for="phone">Phone Number:</label>
         <input type="tel" id="phone" name="phone">
+          <br>
+          
         <label for="subject">Subject:</label>
         <input type="text" id="subject" name="subject" required>
+          <br>
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="5" required></textarea>
         <button type="submit">Send</button>
