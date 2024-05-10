@@ -389,75 +389,75 @@ color: #ffffff;
 max-width: 100%; 
 margin: auto; 
 margin-bottom: 0px!important;
-background-size: cover; /* Cover the entire jumbotron with the background image */
-background-position: top; /* Center the background image */
-color: white; /* Text color on top of the background image */
-padding: 100px 0; /* Add padding for content inside the jumbotron */
-text-align: left; /* Center-align text within the jumbotron */
+background-size: cover; 
+background-position: top; 
+color: white; 
+padding: 100px 0; 
+text-align: left; 
 background-color: black!important;
 border-radius: 0px!important;
      height: 300px;
         }
 
  @media (max-width: 768px) {
-            /* Media query for smaller screens */
+            
 .jumbotron {
-max-width: 100%; /* Full width on smaller screens */
+max-width: 100%; 
             }
         }
 
 .full-height {
-    min-height: 100vh; /* Set minimum height to 100% viewport height */
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('Hero40.jpg'); /* Set background image */
-    background-size: cover; /* Cover the entire jumbotron with the background image */
-    background-position: center; /* Center the background image */
-    color: white; /* Text color on top of the background image */
+    background-image: url('Hero40.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    color: white; 
     text-align: left;
 }
 
 .upcomingshows{
-    background-image: url('upcomingshows.jpg'); /* Set background image */   
+    background-image: url('upcomingshows.jpg');  
     
 }
 
 .classoverview{
-    background-image: url('classoverview.jpg'); /* Set background image */   
+    background-image: url('classoverview.jpg');  
     
 }
 
 
 .shoppage{
-    background-image: url('shopbanner.jpg'); /* Set background image */   
+    background-image: url('shopbanner.jpg');    
     
 }
 
 .registrationpage{
-    background-image: url('registrationbanner.jpg'); /* Set background image */   
+    background-image: url('registrationbanner.jpg');  
     
 }
 
 
 
 .calendarpage{
-    background-image: url('calendarbanner.jpg'); /* Set background image */   
+    background-image: url('calendarbanner.jpg');  
     
 }
 
 .faqpage{
-    background-image: url('faqbanner2.jpg'); /* Set background image */   
+    background-image: url('faqbanner2.jpg');   
     
 }
 
 .enrollpage{
-    background-image: url('enrollbanner.jpg'); /* Set background image */   
+    background-image: url('enrollbanner.jpg');   
     
 }
 
 .contactpage{
-    background-image: url('contactbanner.jpg'); /* Set background image */   
+    background-image: url('contactbanner.jpg');  
     
 }
 
@@ -475,12 +475,12 @@ max-width: 100%; /* Full width on smaller screens */
 
 /* Custom styles for jumbotron with photo background */
 .bg-image {
-    background-image: url('path_to_your_background_image.jpg'); /* Set background image */
-    background-size: cover; /* Cover the entire jumbotron with the background image */
-    background-position: center; /* Center the background image */
-    color: white; /* Text color on top of the background image */
-    text-align: center; /* Center-align text within the jumbotron */
-    position: relative; /* Make the jumbotron a relative container */
+
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    text-align: center; 
+    position: relative;
 }
 
 .bg-image .container {
@@ -488,29 +488,28 @@ max-width: 100%; /* Full width on smaller screens */
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 20px; /* Add padding for the copy */
+    padding: 20px; 
 }
 
 @media (min-width: 768px) {
-    /* For desktop screens */
+    /* For desktop screens 
     .bg-image .container {
-        text-align: left; /* Align text to the left for desktop */
+        text-align: left; 
     }
 }
 
 @media (max-width: 767px) {
-    /* For mobile screens */
+    /* For mobile screens 
     .bg-image .container {
-        text-align: center; /* Center-align text for mobile */
+        text-align: center;
     }
 }
 
 
-   /* Custom styles for the address and phone section */
  .address-phone {
       background-color: #3E8A2A; 
-      padding: 1px 0; /* Padding top and bottom */
-      text-align: right; /* Align content to the right */
+      padding: 1px 0; 
+      text-align: right; 
     }
 .col-md-6{
     text-align: center;
@@ -525,21 +524,21 @@ padding: 40px;
 
 
 .container {
-    padding-right: 15px; /* Right padding for desktop */
-    padding-left: 15px; /* Left padding for desktop */
+    padding-right: 15px; 
+    padding-left: 15px; 
 }
 
 .row {
-    margin-right: -15px; /* Compensate for container padding */
-    margin-left: -15px; /* Compensate for container padding */
+    margin-right: -15px; 
+    margin-left: -15px; 
 }
 
 .col-lg-6 {
     position: relative;
     width: 100%;
     min-height: 1px;
-    padding-right: 15px; /* Right padding for desktop */
-    padding-left: 15px; /* Left padding for desktop */
+    padding-right: 15px; 
+    padding-left: 15px; 
 }
 
 /* Media query for mobile devices */
@@ -547,12 +546,12 @@ padding: 40px;
     .container,
     .row,
     .col-lg-6 {
-        padding-right: 0; /* Remove padding for mobile */
-        padding-left: 0; /* Remove padding for mobile */
+        padding-right: 0; 
+        padding-left: 0; 
     }
 
     .col-lg-6 {
-        width: 100%; /* Full width for mobile */
+        width: 100%; 
     }
 }
 
@@ -568,8 +567,8 @@ padding: 40px;
           font-family: "lato-regular", sans-serif;
     font-size: 15px;
     color:white;
-      padding: 10px 0; /* Padding top and bottom */
-      text-align: right; /* Align content to the right */
+      padding: 10px 0;
+      text-align: right; 
     flex-wrap: wrap;
 }
 
@@ -581,9 +580,9 @@ padding: 25px;
 
 
   .vertical-divider {
-            border-left: 1px solid #ffffff57; /* Change color and style as needed */
-            height: 40px; /* Adjust height as needed */
-            margin: 0 10px; /* Adjust margin as needed */
+            border-left: 1px solid #ffffff57; 
+            height: 40px;
+            margin: 0 10px; 
         }
 
 
@@ -747,8 +746,8 @@ bg-eventinfo{
   width: 10px;
   border-radius: 50%;
   display: block;
-  background: #000; /* Solid black dots */
-  border: 2px solid #000; /* Black outline */
+  background: #000; 
+  border: 2px solid #000; 
   margin: 0 5px;
 }
 
@@ -757,7 +756,7 @@ bg-eventinfo{
 }
 
 .gtco-testimonials .owl-dots .active span {
-  background: #EDEAE5; /* White dots */
+  background: #EDEAE5; 
   box-shadow: none;
   height: 12px;
   width: 12px;
@@ -842,7 +841,7 @@ color: #171717;
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio (height: width) */
+    padding-bottom: 56.25%; 
     overflow: hidden;
     max-width: 100%;
 }
@@ -919,9 +918,9 @@ border-top-right-radius: 10px;
 
 
 .card {
-        margin: 0 auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
+        margin: 0 auto; 
+        float: none;
+        margin-bottom: 10px;
     margin-top: 10px;
     width: 21rem!important;
 }
@@ -980,11 +979,11 @@ border-top-right-radius: 10px;
 
         @media (max-width: 768px) {
             .icon-col {
-                flex-basis: 33.33%; /* Display three icons in a row */
+                flex-basis: 33.33%;
             }
 
             .icon-col:last-child {
-                margin-right: 0; /* Remove right margin for the last icon in each row */
+                margin-right: 0; 
             }
         }
 
@@ -1189,57 +1188,5 @@ border-top-right-radius: 10px;
 
     
     
-  /* Contact */  
+ 
     
-
-  .container-contact {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 50px;
-    flex-wrap: wrap;
-  }
-  .contact-form {
-    flex: 1;
-    max-width: 400px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
-  .contact-info {
-    flex: 1;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-left: 20px;
-      max-width: 300px; 
-    margin-bottom: 20px;
-  }
-  .map-container {
-    margin-top: 20px;
-  }
-  iframe {
-    width: 250px;
-    height: 250px;
-    border: none;
-    border-radius: 8px;
-  }
-    textarea {
-    width: 100%;
-    }
-
-    @media screen and (max-width: 768px) {
-    .container {
-      flex-direction: column; 
-      align-items: center; 
-    }
-          iframe {
-    width: 250px;
-    height: 250px;
-          }
-  }
-    
-
