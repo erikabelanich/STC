@@ -456,6 +456,12 @@ max-width: 100%; /* Full width on smaller screens */
     
 }
 
+.contactpage{
+    background-image: url('contactbanner.jpg'); /* Set background image */   
+    
+}
+
+
 
 
 
@@ -1183,12 +1189,57 @@ border-top-right-radius: 10px;
 
     
     
+  /* Contact */  
     
+
+  .container-contact {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    flex-wrap: wrap;
+  }
+  .contact-form {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  .contact-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+      max-width: 300px; 
+    margin-bottom: 20px;
+  }
+  .map-container {
+    margin-top: 20px;
+  }
+  iframe {
+    width: 250px;
+    height: 250px;
+    border: none;
+    border-radius: 8px;
+  }
+    textarea {
+    width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column; 
+      align-items: center; 
+    }
+          iframe {
+    width: 250px;
+    height: 250px;
+          }
+  }
     
-    
-    
-    
-    
-  /* Class Overview - Steps */  
-    
-    
+
