@@ -602,7 +602,9 @@ padding: 25px;
 
 
 
-
+.container-home {
+    padding: 30px;
+}
 
 /* Shop */
 
@@ -610,7 +612,6 @@ padding: 25px;
   .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px;
   }
   
   .col {
